@@ -1,0 +1,178 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+  /* html {
+    background-color: #ecf9ff;
+  } */
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+/* width: 100%; */
+max-width: 12000px;
+  margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.btn {
+
+  padding: 0.8rem;
+  font-size: 14px;
+
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+ 
+a{
+  text-decoration: none;
+} 
+.cards {
+   display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  /* display: flex; */
+  /* padding: 1rem  ; */
+  width: 45%;
+}
+
+@media (min-width: 600px) {
+  .cards_item {
+    width: 30%;
+  }
+}
+@media (max-width: 373px) {
+  .cards_item {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 23%;
+  }
+}
+
+.card {
+  /* background-color: white; */
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card_content {
+  /* padding: 1rem; */
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
+.qua {
+  /* width: 300px; */
+  margin: 0 auto;
+  /* text-align: center; */
+  /* padding-top: 50px; */
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1% 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+.qua #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+.qua #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+.qua #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

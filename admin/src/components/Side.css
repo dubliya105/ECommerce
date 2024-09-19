@@ -1,0 +1,21 @@
+.LinkDesign {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  .LinkDesign:hover {
+    letter-spacing: 2px;
+    font-weight: 800;
+  }
+  
+  .Side{
+      background-color:#ADBBDA;
+      height:100%;
+      width:230px;box-shadow:5px 0 5px -5px #111b37;
+      position: fixed;
+      margin-top: 78px;
+      left: 0
+  }
+
+  

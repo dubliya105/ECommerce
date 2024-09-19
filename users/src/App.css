@@ -1,0 +1,69 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.OGrnIL{
+  display: inline-block;
+  vertical-align: middle;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMHY3LjdoMi4xVjE0TDcgNS42SDQuMkw3IDAiIGZpbGw9IiNGRkYiLz48L3N2Zz4=);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}
+body{
+  background-color: #f1f3f6 !important;
+}
+.Signup{
+  /* color: aliceblue; */
+  padding: 2%;
+  margin: 5% 5% 5% 25%;
+  height: 70vh;
+  border-radius: 19px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  40px 40px 36px #868686,
+              -40px -40px 36px #ffffff;
+  width: 50%;
+  text-align: center ;
+  /* background:linear-gradient(35deg, gray 10%, #ed4747 44%, #9d9de2 75%, #ffff64 106%); */
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAVtv1wAdxL0IkLEZqbWuO8Nnl8-ZK7836Hg&snpm'); */
+  /* z-index: -1; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+
+}
